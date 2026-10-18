@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="rmFavGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B2"/>
+      <stop offset="35%" stop-color="#E5A83B"/>
+      <stop offset="70%" stop-color="#FDE089"/>
+      <stop offset="100%" stop-color="#C6821E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background royal deep jewel tone -->
+  <rect width="64" height="64" rx="14" fill="#0A1C16"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="url(#rmFavGold)" stroke-width="1.5" stroke-opacity="0.85"/>
+
+  <!-- Royal Arch & Peacock Crown Silhouette -->
+  <g transform="translate(32, 28) scale(0.46)">
+    <!-- Crown at top -->
+    <circle cx="0" cy="-44" r="3" fill="url(#rmFavGold)"/>
+    <!-- Peacock Fan Tail -->
+    <path d="M-22 -28 C-14 -40, 14 -40, 22 -28 C14 -32, -14 -32, -22 -28 Z" fill="url(#rmFavGold)"/>
+    <circle cx="-20" cy="-28" r="2" fill="url(#rmFavGold)"/>
+    <circle cx="20" cy="-28" r="2" fill="url(#rmFavGold)"/>
+    <circle cx="0" cy="-35" r="2.5" fill="url(#rmFavGold)"/>
+
+    <!-- Mughal Palace Jharokha Arch -->
+    <path d="M-26 26 L-26 -10 C-26 -22, -14 -28, 0 -28 C14 -28, 26 -22, 26 -10 L26 26 Z" fill="none" stroke="url(#rmFavGold)" stroke-width="3"/>
+    <path d="M-18 26 L-18 -8 C-18 -18, -10 -22, 0 -22 C10 -22, 18 -18, 18 -8 L18 26 Z" fill="none" stroke="url(#rmFavGold)" stroke-width="2"/>
+    <path d="M0 -22 L0 26 M-10 6 L10 6 M-10 -4 L10 -4 M-10 16 L10 16" stroke="url(#rmFavGold)" stroke-width="1.2" stroke-opacity="0.75"/>
+  </g>
+  <text x="32" y="56" text-anchor="middle" font-family="'Cinzel', 'Times New Roman', serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="url(#rmFavGold)">RM</text>
+</svg>

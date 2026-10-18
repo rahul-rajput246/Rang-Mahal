@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="160" height="110">
+  <defs>
+    <linearGradient id="rmGoldF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B2"/>
+      <stop offset="25%" stop-color="#E5A83B"/>
+      <stop offset="50%" stop-color="#FDE089"/>
+      <stop offset="75%" stop-color="#C6821E"/>
+      <stop offset="100%" stop-color="#9E610A"/>
+    </linearGradient>
+    <filter id="rmShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Central Mughal Arch & Peacock Crest -->
+  <g transform="translate(160, 56) scale(0.68)" filter="url(#rmShadow)">
+    <!-- Peacock Crown at top -->
+    <circle cx="0" cy="-56" r="3" fill="url(#rmGoldF)"/>
+    <path d="M-30 -36 C-20 -52, 20 -52, 30 -36 C20 -42, -20 -42, -30 -36 Z" fill="url(#rmGoldF)"/>
+    <circle cx="-28" cy="-36" r="2.2" fill="url(#rmGoldF)"/>
+    <circle cx="28" cy="-36" r="2.2" fill="url(#rmGoldF)"/>
+    <circle cx="-14" cy="-48" r="2.2" fill="url(#rmGoldF)"/>
+    <circle cx="14" cy="-48" r="2.2" fill="url(#rmGoldF)"/>
+    <circle cx="0" cy="-46" r="2.5" fill="url(#rmGoldF)"/>
+
+    <!-- Palace Archway Outer & Inner -->
+    <path d="M-36 36 L-36 -12 C-36 -30, -20 -38, 0 -38 C20 -38, 36 -30, 36 -12 L36 36 Z" fill="none" stroke="url(#rmGoldF)" stroke-width="3"/>
+    <path d="M-26 36 L-26 -10 C-26 -22, -14 -28, 0 -28 C14 -28, 26 -22, 26 -10 L26 36 Z" fill="none" stroke="url(#rmGoldF)" stroke-width="2"/>
+    <!-- Jali Lattice -->
+    <path d="M0 -28 L0 36 M-14 16 L14 16 M-14 2 L14 2 M-14 -12 L14 -12" stroke="url(#rmGoldF)" stroke-width="1.2" stroke-opacity="0.8"/>
+    
+    <!-- Left & Right Royal Filigree Flourish -->
+    <path d="M-36 20 C-48 16, -56 26, -60 38 C-50 35, -42 28, -36 28 Z" fill="url(#rmGoldF)"/>
+    <path d="M36 20 C48 16, 56 26, 60 38 C50 35, 42 28, 36 28 Z" fill="url(#rmGoldF)"/>
+  </g>
+
+  <!-- Typography: RANG MAHAL -->
+  <text x="160" y="146" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', 'Times New Roman', serif" font-size="34" font-weight="700" letter-spacing="5" fill="url(#rmGoldF)" filter="url(#rmShadow)">RANG MAHAL</text>
+
+  <!-- Elegant Divider -->
+  <line x1="45" y1="162" x2="135" y2="162" stroke="url(#rmGoldF)" stroke-width="1.2" stroke-opacity="0.75"/>
+  <polygon points="160,159 164,162 160,165 156,162" fill="url(#rmGoldF)"/>
+  <line x1="185" y1="162" x2="275" y2="162" stroke="url(#rmGoldF)" stroke-width="1.2" stroke-opacity="0.75"/>
+
+  <!-- Tagline -->
+  <text x="160" y="182" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', 'Arial', sans-serif" font-size="8.5" font-weight="600" letter-spacing="3.5" fill="url(#rmGoldF)">ROYAL INDIAN PALACE CUISINE</text>
+  <text x="160" y="196" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', 'Arial', sans-serif" font-size="7.5" font-weight="500" letter-spacing="4" fill="#E5A83B" fill-opacity="0.85">&amp; CRAFT TANDOOR</text>
+</svg>
