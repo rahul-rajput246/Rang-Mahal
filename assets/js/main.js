@@ -76,7 +76,7 @@
     ================================ */
 
        $windowOn.on("scroll", function () {
-        if ($(this).scrollTop() > 250) {
+        if ($(this).scrollTop() > 160) {
           $("#header-sticky").addClass("sticky");
         } else {
           $("#header-sticky").removeClass("sticky");
